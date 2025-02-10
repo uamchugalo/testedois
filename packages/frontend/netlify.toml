@@ -1,5 +1,5 @@
 [build]
-  command = "chmod +x ./node_modules/.bin/vite && npm run build"
+  command = "chmod +x netlify-build.sh && ./netlify-build.sh"
   publish = "dist"
   base = "packages/frontend"
 
